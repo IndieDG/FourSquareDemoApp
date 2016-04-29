@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WhitBread</string>
+
+    <!-- Search Activity -->
+    <string name="location_tag">Location:</string>
+    <string name="location_default">UNKNOWN</string>
+    <string name="location_search_default">London</string>
+
+    <!-- Search Fragment -->
+    <string name="search_fragment_tooltip">Enter city name...</string>
+    <string name="search_fragment_search">Search</string>
+</resources>

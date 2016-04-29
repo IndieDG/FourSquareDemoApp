@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@color/fragmentBackground">
+
+    <EditText
+        android:id="@+id/fragment_search_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/search_fragment_tooltip"/>
+
+    <Button
+        android:id="@+id/fragment_search_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fragment_search_input"
+        android:layout_alignParentRight="true"
+        android:text="@string/search_fragment_search"/>
+
+</RelativeLayout>
